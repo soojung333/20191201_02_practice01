@@ -26,6 +26,7 @@
         android:textColor="#2d2d2d" />
 
     <EditText
+        android:id="@+id/idEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
@@ -35,6 +36,7 @@
         />
 
     <EditText
+        android:id="@+id/pwEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
@@ -45,6 +47,7 @@
 
     <Button
 
+        android:id="@+id/loginBtn"
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,12 +65,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="비밀번호 찾기"/>
+            android:text="비밀번호찾기"/>
 
         <TextView
             android:layout_width="0"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            />
 
 
         <TextView
